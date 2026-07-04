@@ -1,0 +1,148 @@
+body{
+    background-image: url(WATERTOWER.jpeg);
+    background-color: rgb(97, 205, 255);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: 600px;
+    overflow: hidden;
+}
+
+h1{
+    color: white;
+    font-family: "Carlito", sans-serif;
+    font-size: 100px;
+    margin-left: 150px;
+    
+}
+
+h3{
+  color: white;
+  font-family: "Carlito", sans-serif;
+   font-size: 50px;
+    margin-left: 600px;
+    margin-top: -75px;
+  
+}
+
+h5{
+    color: white;
+  font-family: "Carlito", sans-serif;
+   font-size: 25px;
+    margin-left: 465px;
+   
+}
+
+.overlay{
+      width: 600px;
+      height: 1000px;
+      left: 1311px;
+      top: 0px;
+      background-color: rgba(56, 176, 255, 0.45);
+      position: fixed;
+}
+
+.waterd{
+    left: -410px;
+    width: 800px;
+    height: 1100px;
+    position: fixed;
+    top: 0px;
+}
+
+.button-row{
+    position: relative;
+    width: 333px;
+}
+
+.button-row button{
+    width: 100%;
+    height: 45px;
+}
+
+
+
+input{
+    margin-left: 500px;
+    font-family: "Carlito", sans-serif;
+
+
+    width: 300px;
+    height: 45px;
+
+  
+    border-radius: 25px;
+
+
+    border: 2px solid black;
+
+
+    background-color: #f2f2f2;
+
+    padding: 0 15px;
+    font-size: 16px;
+
+    outline: none;
+}
+
+.already{
+    font-size: 25px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin-left: 535px;
+    font-family: "Carlito", sans-serif;
+}
+
+
+.google,
+.apple{
+    position: absolute;
+    left: 785px;
+    top: 32px;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+}
+
+.topright{
+    position: absolute;
+    left: 785px;
+    top: 33px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 35px;
+}
+
+button{
+    margin-left: 500px;
+    margin-top: 10px;
+    font-family: "Carlito", sans-serif;
+
+
+    width: 333px;
+    height: 45px;
+
+  
+    border-radius: 25px;
+
+
+    border: 2px solid black;
+
+
+    background-color: #f2f2f2;
+
+    padding: 0 15px;
+    font-size: 16px;
+
+    outline: none;
+   
+}
+
+p{
+    position: relative;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+    margin-left: 575px;
+    font-family: "Carlito", sans-serif;
+}

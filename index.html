@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>McKinney Water Insights - Sign Up </title>
+    <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>McKinney Water Insights</h1>
+<h3>Join us!</h3>
+<h5>Enter your email to sign up for this app</h5>
+<form>
+  <input type="email" id="email" name="email" placeholder="Enter Email" required>
+  <br>
+  <button type="button" onclick="showPassword()">Sign Up with email</button>
+
+  <div id="password-section" style="display:none; margin-top:10px;">
+    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+    <br>
+    <button type="submit">Create Account</button>
+  </div>
+<!-- sign up with other apps like google or apple  -->
+  
+<p>Or Continue With</p>
+
+<div class = "button-row">
+  <button type="button">Sign up with Google</button>
+  <img class = "google" src="Google.png">
+</div>
+  <br>
+  <div class = "button-row">
+  <button type="button">Sign up with Apple</button>
+  <img class = "apple" src="Apple.png">
+</div>
+  <br>
+  
+  <p class="already"> Already have an account?</p>
+  <a href="signin.html">
+    <div class="button-row"> 
+      <button type="button">Sign In</button>
+      <img class = "topright" src="TopRight.png">
+    </div>
+</a>
+<br>
+
+
+
+
+</form>
+<script>
+  function showPassword() {
+    const email = document.getElementById("email").value;
+
+
+    if (email.trim() === "") {
+      alert("Please enter your email first.");
+      return;
+    }
+
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailPattern.test(email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
+
+    document.getElementById("password-section").style.display = "block";
+  }
+</script>
+
+<div class="overlay"> </div>
+
+<img class = "waterd" src="WaterDroplet.png" alt="water">
+</body>
+</html>
