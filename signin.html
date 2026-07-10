@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McKinney's Water Usage</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesignin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,15 +18,37 @@
             </div>
 
             <div class="signin">
-                <h2>Sign In</h2>
+                <h2>Sign In - Page </h2>
                 <form action="/signin" method="post">
-                    <label for="email">Email:</label>
+                    <label for="email">Email</label>
+                    <br>
                     <input type="email" id="email" name="email" required>
-
-                    <label for="password">Password:</label>
+                    <br><br><br>
+                    <label1 for="password">Password</label1>
+                    <br>
                     <input type="password" id="password" name="password" required>
+                    <br>
+                    <button type="submit">Sign In!</button>
+                    <br><br><br><br><br>
+                    <p>Or Continue With</p>
 
-                    <button type="submit">Sign In</button>
+            <div class = "button-row">
+                 <button type="button">Sign up with Google</button>
+                 <img class = "google" src="Google.png">
+            </div>
+            
+             <div class = "button-row">
+                    <button type="button">Sign up with Apple</button>
+                     <img class = "apple" src="Apple.png">
+            </div>
+  <br>
+                    <label2 for="password">Need An Account?</label2>
+                    <br>
+                    <button type="submit">Sign Up!</button>
                 </form>
         </div>
+
+        <div class="overlay"> </div>
+        <img class = "waterd" src="WaterDroplet.png" alt="water">
+        <img class = "topright" src="TopRight.png">
 </body>
