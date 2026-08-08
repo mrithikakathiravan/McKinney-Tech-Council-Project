@@ -49,27 +49,7 @@
 
 
 </form>
-<script>
-  function showPassword() {
-    const email = document.getElementById("email").value;
-
-
-    if (email.trim() === "") {
-      alert("Please enter your email first.");
-      return;
-    }
-
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-    if (!emailPattern.test(email)) {
-      alert("Please enter a valid email address.");
-      return;
-    }
-
-
-    document.getElementById("password-section").style.display = "block";
-  }
-</script>
+<script src="JavaScriptSignUP.js"> </script>
 
 <div class="overlay"> </div>
 
