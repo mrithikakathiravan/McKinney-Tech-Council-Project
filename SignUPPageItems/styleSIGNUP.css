@@ -1,47 +1,49 @@
 body{
-    background-image: url(WATERTOWER.jpeg);
+    background-image: url(imagessignup/WATERTOWER.jpeg);
     background-color: rgb(97, 205, 255);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 115% center;
     background-attachment: fixed;
-    background-size: 600px;
-    overflow: hidden;
+    background-size: 45%;
 }
 
 h1{
     color: white;
     font-family: "Carlito", sans-serif;
     font-size: 100px;
-    margin-left: 150px;
-    
+    text-align: center;
 }
 
 h3{
-  color: white;
-  font-family: "Carlito", sans-serif;
-   font-size: 50px;
-    margin-left: 600px;
-    margin-top: -75px;
-  
+    color: white;
+    font-family: "Carlito", sans-serif;
+    font-size: 50px;
+    text-align: center;
 }
 
 h5{
     color: white;
-  font-family: "Carlito", sans-serif;
-   font-size: 25px;
-    margin-left: 465px;
-   
+    font-family: "Carlito", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+p{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    font-family: "Carlito", sans-serif;
+    text-align: center;
 }
 
 .overlay{
-      width: 600px;
-      height: 1000px;
-      left: 1311px;
-      top: 0px;
-      background-color: rgba(56, 176, 255, 0.45);
-      position: fixed;
+    width: 37%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: rgba(56, 176, 255, 0.45);
+    position: fixed;
 }
-
 .waterd{
     left: -410px;
     width: 800px;
@@ -63,7 +65,6 @@ h5{
 
 
 input{
-    margin-left: 500px;
     font-family: "Carlito", sans-serif;
 
 
@@ -89,33 +90,14 @@ input{
     font-size: 25px;
     position: relative;
     color: rgb(255, 255, 255);
-    margin-left: 535px;
     font-family: "Carlito", sans-serif;
 }
 
 
-.google,
-.apple{
-    position: absolute;
-    left: 785px;
-    top: 32px;
-    transform: translateY(-50%);
-    width: 35px;
-    height: 35px;
-}
 
-.topright{
-    position: absolute;
-    left: 785px;
-    top: 33px;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 35px;
-}
+
 
 button{
-    margin-left: 500px;
-    margin-top: 10px;
     font-family: "Carlito", sans-serif;
 
 
@@ -138,11 +120,9 @@ button{
    
 }
 
-p{
-    position: relative;
-    margin-top: 30px;
-    font-size: 25px;
-    color: white;
-    margin-left: 575px;
-    font-family: "Carlito", sans-serif;
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
 }

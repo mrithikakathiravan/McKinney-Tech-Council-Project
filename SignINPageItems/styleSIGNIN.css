@@ -1,20 +1,18 @@
 body{
-    background-image: url(WaterFALLER.JPG);
+    background-image: url(imagessignin/WaterFALLER.JPG);
     background-color: rgb(97, 205, 255);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 115% center;
     background-attachment: fixed;
-    background-size: 650px;
-    background-position-x: 1311px;
-    overflow: hidden;
+    background-size: 45%;
 
 }
 
 .overlay{
-      width: 600px;
-      height: 1000px;
-      left: 1311px;
-      top: 0px;
+      width: 37%;
+      height: 100%;
+      right: 0;
+      top: 0;
       background-color: rgba(56, 176, 255, 0.45);
       position: fixed;
 }
@@ -23,16 +21,15 @@ h1{
     color: white;
     font-family: "Carlito", sans-serif;
     font-size: 100px;
-    margin-left: 150px;
+    text-align: center;
     
 }
 
 h2{
   color: white;
   font-family: "Carlito", sans-serif;
-   font-size: 50px;
-    margin-left: 580px;
-    margin-top: -40px;
+  font-size: 50px;
+  text-align: center;
   
 }
 
@@ -66,45 +63,29 @@ label{
     color: white;
     font-family: "Carlito", sans-serif;
    font-size: 30px;
-    margin-left: 680px;
-    margin-top: -75px;
 }
 
-.topright{
-    position: absolute;
-    left: 845px;
-    top: 714px;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 35px;
-}
 
-label1{
+.label-password{
     color: white;
     font-family: "Carlito", sans-serif;
-   font-size: 30px;
-    margin-left: 656px;
-    margin-top: -75px;
+    font-size: 30px;
 }
 
-label2{
-     color: white;
+.label-account{
+    color: white;
     font-family: "Carlito", sans-serif;
-   font-size: 30px;
-    margin-left: 605px;
-    margin-top: -75px;
+    font-size: 30px;
 }
-
 p{
     color: white;
     font-family: "Carlito", sans-serif;
-     font-size: 35px;
-    margin-left: 595px;
-    margin-top: -50px;
+    font-size: 35px;
+    text-align: center;
+
 }
 
 input{
-    margin-left: 550px;
     font-family: "Carlito", sans-serif;
 
 
@@ -127,8 +108,7 @@ input{
 }
 
 button{
-    margin-left: 550px;
-    margin-top: 10px;
+
     font-family: "Carlito", sans-serif;
 
 
@@ -149,4 +129,11 @@ button{
 
     outline: none;
    
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }

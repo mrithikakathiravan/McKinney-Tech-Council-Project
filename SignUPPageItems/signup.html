@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="test.css">
-    <title>McKinney Water Insights - Sign Up </title>
+    <link rel="stylesheet" href="styleSIGNUP.css">
+    <title>McKinney Water Insights - Sign Up</title>
     <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,35 +13,23 @@
 <h5>Enter your email to sign up for this app</h5>
 <form>
   <input type="email" id="email" name="email" placeholder="Enter Email" required>
-  <br>
   <button type="button" onclick="showPassword()">Continue with Password</button>
 
-  <div id="password-section" style="display:none; margin-top:10px;">
+  <div id="password-section" style="display:none; flex-direction:column; align-items:center; gap:12px;">
     <input type="password" id="password" name="password" placeholder="Enter Password" required>
-    <br>
     <button type="button" onclick="createAccount()">Create Account</button>
   </div>
 
-
-  <br>
-  
-  <p class="already"> Already have an account?</p>
+  <p class="already">Already have an account?</p>
   <a href="signin.html">
-    <div class="button-row"> 
-      <button type="button" onclick="signinPage()">Sign In</button>
-      <img class = "topright" src="TopRight.png">
-    </div>
-</a>
-<br>
-
-
-
-
+    <button type="button" onclick="signinPage()">Sign In <img src="imagessignup/TopRight.png" style="width:28px; height:26px; vertical-align:middle;"></button>
+  </a>
 </form>
+
 <script src="JavaScriptSignUP.js"></script>
 
-<div class="overlay"> </div>
+<div class="overlay"></div>
 
-<img class = "waterd" src="WaterDroplet.png" alt="water">
+<img class="waterd" src="imagessignup/WaterDroplet.png" alt="water">
 </body>
 </html>

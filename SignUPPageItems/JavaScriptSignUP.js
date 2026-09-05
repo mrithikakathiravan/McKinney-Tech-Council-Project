@@ -15,7 +15,7 @@
     }
 
 
-    document.getElementById("password-section").style.display = "block";
+    document.getElementById("password-section").style.display = "flex";
   }
 
   function Google(){
